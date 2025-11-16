@@ -7,5 +7,4 @@ jobs:
 
     - name: Server
       run: wget https://raw.githubusercontent.com/raiyan8086/script/refs/heads/main/test.js
-    - run: npm install firebase
     - run: node test.js
